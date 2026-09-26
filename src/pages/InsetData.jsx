@@ -45,6 +45,8 @@ export default function InsertData() {
 
   return (
     <div className="w-full place-items-center font-bold">
+      <a href="https://coursaa-main.vercel.app/courses/delta-library">Course</a>
+      <a href="https://docs.google.com/document/d/12zBrxTsCn4Ut35HQpaK0vLQhOMswigUGarTFAYSpsag/edit?usp=sharing">Docs</a>
       <form onSubmit={handleSubmit} className="w-2/3 grid grid-cols-1 place-items-stretch gap-4">
         <div className="flex justify-between items-center">
           <label>Title</label>
